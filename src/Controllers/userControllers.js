@@ -13,7 +13,8 @@ const db = mysql.createConnection({
     database: process.env.DB_DATABASE
 });
 
-
+// The schema includes fields(columns) such as fname, lname, email, phone, password, address, pincode, and isDeleted.
+// all fields is not null and email and password is unique
 
 const { isValidName, isValidEmail, isValidPhone, isValidBody, isValidpincode, isVaildPass } = validator
 
