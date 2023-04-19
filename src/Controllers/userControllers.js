@@ -15,7 +15,7 @@ const db = mysql.createConnection({
 
 
 
-const { isEmpty, isValidName, isValidEmail, isValidPhone, isValidBody, isValidpincode, isVaildPass } = validator
+const { isValidName, isValidEmail, isValidPhone, isValidBody, isValidpincode, isVaildPass } = validator
 
 
 const userCreate = async function (req, res) {

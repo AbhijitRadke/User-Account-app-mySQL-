@@ -1,0 +1,27 @@
+{
+  "name": "user-api-assignment",
+  "version": "1.0.0",
+  "description": " assignment Otobit",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbhijitRadke/User-API-Assignment.git"
+  },
+  "author": "Abhijit Radke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbhijitRadke/User-API-Assignment/issues"
+  },
+  "homepage": "https://github.com/AbhijitRadke/User-API-Assignment#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.22"
+  }
+}
